@@ -13,67 +13,76 @@ html {
     box-sizing: border-box;
     font-size: 14px;
     font-family: 'Spartan',
-    sans-serif;
+        sans-serif;
 }
- /* *, *::before, *::after {
-     box-sizing: border-box;
- } */
- body {
-     
-     padding: 60px 60px 60px 80px ;
- }
- h1 {
-   font-size: 300%;  
-   margin-bottom: 0;
-   width: 400px;
-   /* width: 400px; */
- }
- h4 {
-     display: inline-block;
- }
- .one, .two, .three, .four {
-     display: inline-block;
- }
- /*  Description-rating Section */
 
- .description-rating {
-     display: flex;
-     padding-left: 5px;
- }
- /* Descritption Section */
-.description{
+body {
+    padding: 60px 60px 60px 80px;
+}
+
+h1 {
+    font-size: 300%;
+    margin-bottom: 0;
+    width: 400px;
+
+}
+
+h4 {
+    display: inline-block;
+}
+
+.one,
+.two,
+.three,
+.four {
+    display: inline-block;
+}
+
+/*  Description-rating Section */
+
+.description-rating {
+    display: flex;
+    padding-left: 5px;
+}
+
+/* Descritption Section */
+.description {
     margin-top: 0;
 }
 
- h1, .ratings ul li {
-     color: hsl(300, 43%, 22%);
-     /* font-weight: 700; */
- }
+h1,
+.ratings ul li {
+    color: hsl(300, 43%, 22%);
+}
 
- .ratings div li {
-     font-weight: 700;
- }
- .description p {
-     color:hsl(303, 10%, 53%);
-     line-height: 1.5;
-     width: 450px;
- }
- 
+.ratings div li {
+    font-weight: 700;
+}
 
- /* Rating Section */
+.description p {
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5;
+    width: 450px;
+}
 
- .ratings {
-  position: relative;
- }
- #star-ratings {
-     background-color: hsl(300, 43%, 97%);
-     display: inline-block;
-     margin: 8px ;
-     padding: 10px 30px;
-     border-radius: 10px;
-     width: 370px;
- }
-#star-ratings li, img {
+
+/* Rating Section */
+
+.ratings {
+    position: relative;
+}
+
+#star-ratings {
+    background-color: hsl(300, 43%, 97%);
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: 370px;
+}
+
+#star-ratings li,
+img {
     margin: 5px 1px;
 }
 
@@ -81,45 +90,48 @@ html {
     margin-bottom: -2px;
     margin-right: 2px;
 }
+
 ul {
     display: inline-block;
 }
+
 li {
-     display: inline-block;
-     margin: 5px;
-     font-weight: bold;
- }
-
-    .two {
-        position: absolute;
-        top: 3px;
-        left: 240px;
-    }
-
-    .three {
-        position: absolute;
-        top: 70px;
-        left: 300px;
-        right: 60px;
-    }
-
-    .four {
-        position: absolute;
-        top: 137px;
-        left: 360px;
-        right: 10px;
-    }
-
-@media screen and (max-width: 620px)
-{
-.one, .two, .three, .four, .Colton, .Irene, .Anne {
-    width: 100%;
+    display: inline-block;
+    margin: 5px;
+    font-weight: bold;
 }
- /* body {
-     display: flex;
-     flex-direction: column;
- } */
 
+.two {
+    position: absolute;
+    top: 3px;
+    left: 240px;
+}
+
+.three {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+    right: 60px
+}
+
+.four {
+    position: absolute;
+    top: 137px;
+    left: 360px;
+    right: 10px;
+}
+
+@media screen and (max-width: 620px) {
+
+    .one,
+    .two,
+    .three,
+    .four,
+    .Colton,
+    .Irene,
+    .Anne {
+        width: 100%;
+    }
 }
 
 /* Reviews Section */
@@ -129,60 +141,66 @@ li {
     margin-top: 40px;
 }
 
- #verified-buyer {
-     color: hsl(333, 80%, 67%);
- }
- .reviews img {
-     border-radius: 100%;
- }
- .Colton, .Irene, .Anne {
-     display: inline-block;
-     background-color: hsl(300, 43%, 22%);
-     width: 25%;
-     border-radius: 3%;
-     margin: 10px;
-     margin-left: 5px;
-     padding: 40px 30px 20px 40px;
- }
+#verified-buyer {
+    color: hsl(333, 80%, 67%);
+}
 
- .Colton {
-     position: absolute;
- }
+.reviews img {
+    border-radius: 100%;
+}
 
- .Irene{
- position: absolute;
- top: 25px;
- left: 430px;
- }
+.Colton,
+.Irene,
+.Anne {
+    display: inline-block;
+    background-color: hsl(300, 43%, 22%);
+    width: 25%;
+    border-radius: 3%;
+    margin: 10px;
+    margin-left: 5px;
+    padding: 40px 30px 20px 40px;
+}
+
+.Colton {
+    position: absolute;
+}
+
+.Irene {
+    position: absolute;
+    top: 25px;
+    left: 430px;
+}
 
 .Anne {
-position: absolute;
-top: 50px;
-left: 860px;
+    position: absolute;
+    top: 50px;
+    left: 860px;
 }
-.photo-name{
- width: 220px;
+
+.photo-name {
+    width: 220px;
 }
-.photo-name img{
-float: left;
-width: 18%;
-margin: 0 15px 5px 10px;
- }
 
- .photo-name h4 {
-margin: 0 10px 0 5px;
-padding: 2px 2px;
- }
+.photo-name img {
+    float: left;
+    width: 18%;
+    margin: 0 15px 5px 10px;
+}
 
- .review-name {
-     margin-top: 40px;
-     line-height: 1.5;
- }
+.photo-name h4 {
+    margin: 0 10px 0 5px;
+    padding: 2px 2px;
+}
 
- /* Footer */
+.review-name {
+    margin-top: 40px;
+    line-height: 1.5;
+}
 
- .attribution {
-     position: absolute;
-     top: 700px;
-     left: 520px;
- }
+/* Footer */
+
+.attribution {
+    position: absolute;
+    top: 700px;
+    left: 520px;
+}
