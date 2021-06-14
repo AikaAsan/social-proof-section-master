@@ -14,10 +14,16 @@ html {
     font-size: 14px;
     font-family: 'Spartan',
         sans-serif;
+           max-width: 960px;
 }
 
 body {
     padding: 60px 60px 60px 80px;
+}
+.container {
+    max-width: 960px;
+    margin: auto;
+    max-height: fit-content;
 }
 
 h1 {
@@ -104,20 +110,20 @@ li {
 .two {
     position: absolute;
     top: 3px;
-    left: 240px;
+    left: 80px;
 }
 
 .three {
     position: absolute;
     top: 70px;
-    left: 300px;
+    left: 120px;
     right: 60px
 }
 
 .four {
     position: absolute;
     top: 137px;
-    left: 360px;
+    left: 160px;
     right: 10px;
 }
 
@@ -168,13 +174,13 @@ li {
 .Irene {
     position: absolute;
     top: 25px;
-    left: 430px;
+    left: 400px;
 }
 
 .Anne {
     position: absolute;
     top: 50px;
-    left: 860px;
+    left: 800px;
 }
 
 .photo-name {
